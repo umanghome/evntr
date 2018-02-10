@@ -1,0 +1,17 @@
+{
+  "name": "evntr",
+  "version": "1.0.0",
+  "description": "A zero-dependency pub-sub library.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-file evntr.js --presets es2015 && babel-minify evntr.js --out-file evntr.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umanghome",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.3.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
