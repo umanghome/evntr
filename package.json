@@ -28,7 +28,7 @@
     "pubsub"
   ],
   "author": "umanghome",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/umanghome/evntr/issues"
   },
