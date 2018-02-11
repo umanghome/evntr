@@ -55,3 +55,9 @@ evntr.emit('myEvent', {
 ```js
 evntr.off('myEvent', myListener);
 ```
+
+---
+
+# License
+
+[MIT License](https://opensource.org/licenses/MIT) © [Umang Galaiya](https://umanggalaiya.in/)
