@@ -1,6 +1,6 @@
 # Evntr
 
-A zero-dependency pub-sub library that works in the browser as well as in Node.js.
+Zero-dependency eventing and pub-sub library for the browser and Node.js.
 
 ---
 
