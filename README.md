@@ -15,6 +15,8 @@ Zero-dependency eventing and pub-sub library for the browser and Node.js.
 </script>
 ```
 
+Evntr is also available from unpkg: [`https://unpkg.com/evntr@1.0.0/evntr.min.js`](https://unpkg.com/evntr@1.0.0/evntr.min.js)
+
 ## Node.js
 
 Install from NPM using `npm i --save evntr`, then
