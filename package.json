@@ -1,7 +1,7 @@
 {
   "name": "evntr",
   "version": "1.0.1",
-  "description": "Zero-dependency Eventing and pub-sub library.",
+  "description": "Zero-dependency eventing and pub-sub library.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
