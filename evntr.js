@@ -1,5 +1,11 @@
 'use strict';
 
+var invokeAsync = function invokeAsync(method, args) {
+  return setTimeout(function () {
+    return method.apply(null, args);
+  });
+};
+
 /**
  * An eventer.
  */
@@ -44,7 +50,7 @@ var Evntr = function Evntr() {
 
       // Invoke each callback.
       for (var i = 0; i < c[event].length; i++) {
-        c[event][i].apply(null, args);
+        invokeAsync(c[event][i], args);
       }
     },
 
