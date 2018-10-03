@@ -65,6 +65,7 @@ const Evntr = function () {
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
   module.exports = Evntr;
+  module.exports.default = Evntr;
 } else {
   if (typeof define === 'function' && define.amd) {
     define([], function() {
