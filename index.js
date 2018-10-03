@@ -1,3 +1,5 @@
+const invokeAsync = (method, args) => setTimeout(() => method.apply(null, args));
+
 /**
  * An eventer.
  */
@@ -38,7 +40,7 @@ const Evntr = function () {
 
       // Invoke each callback.
       for (let i = 0; i < c[event].length; i++) {
-        c[event][i].apply(null, args);
+        invokeAsync(c[event][i], args);
       }
     },
 
